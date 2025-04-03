@@ -85,7 +85,7 @@ const sortedData = data.sort((a, b) => {
 const Purchase: React.FC = () => {
   return (
     <div className="overflow-x-auto  p-4">
-      <div className="max-h-[70vh] overflow-y-auto">
+      <div className=" overflow-y-auto">
         <table className="w-full border-collapse text-white text-sm">
           {/* Table Header */}
           <thead>
