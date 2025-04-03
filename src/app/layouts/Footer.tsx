@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <p className='opacity-50 text-xl'>© 2025 Strategy. All Rights Reserved.</p>
       </div>
 
-      <div className="w-full text-lg flex justify-center gap-4 items-center ">
+      <div className="w-full text-lg flex flex-col sm:flex-row justify-center gap-4 items-center ">
 
         <a href="#" className="opacity-50 text-white bg-inherit hover:opacity-100 hover:underline">
           Contact Us

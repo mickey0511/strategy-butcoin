@@ -29,14 +29,13 @@ export default function Home() {
                 {currentIndex === 2 && <Btc />}
                 {currentIndex === 3 && <Debt />}
                 {currentIndex === 4 && <Assets />}
-                {currentIndex === 5 && <Options/>}
+                {currentIndex === 5 && <Options />}
                 {currentIndex === 6 && <Charts />}
-                {currentIndex === 7 && <History_/>}
+                {currentIndex === 7 && <History_ />}
                 {currentIndex === 8 && <Purchases />}
                 {currentIndex === 9 && <Shares />}
-                {currentIndex === 10 && <Notes />} 
+                {currentIndex === 10 && <Notes />}
             </div>
-
             <div className="w-full text-lg text-white opacity-80 italic mt-4">
                 Securities market data last updated: 04/02/2025 04:00 PM ET; Bitcoin market data last updated: 04/02/2025 05:25 PM ET. +/- data reflects change since prior market close (4:00pm ET) for securities market data and since 11:59pm ET for Bitcoin market data.   •   Market data source: Polygon.io  •  See Notes (strategy.com/notes) for important information.
             </div>
