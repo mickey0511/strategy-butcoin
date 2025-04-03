@@ -27,7 +27,7 @@ const Mstr: React.FC = () => {
     ];
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-black">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 p-2 bg-black">
             {stats.map((stat, index) => (
                 <StatItem key={index} name={stat.name} value={stat.value} change={stat.change} />
             ))}
