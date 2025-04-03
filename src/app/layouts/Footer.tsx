@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="bg-black w-full flex flex-row  p-4 border-t-2 border-gray-400 fixed bottom-0 left-0 z-50">
       <div className="container flex flex-row justify-center lg:justify-between items-center text-center text-white ">
         <div className="w-[200px] md:flex lg:justify-center md:items-center">
-          <img src="/StrategyB.png" alt="logo" className="w-auto h-auto" />
+          <img src="/StrategyB_footer.png" alt="logo" className="w-auto h-auto" />
         </div>
         {/* <p className='opacity-50 text-xl'>© 2025 Strategy. All Rights Reserved.</p> */}
       </div>

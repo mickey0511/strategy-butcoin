@@ -3,8 +3,6 @@
 import React, { useState, useEffect } from "react";
 import StatItem from "./btc_button";
 import { MdCurrencyBitcoin } from "react-icons/md";
-import { Connection, PublicKey } from "@solana/web3.js";
-import { getAssociatedTokenAddress, getAccount } from "@solana/spl-token";
 
 
 interface DataType {
