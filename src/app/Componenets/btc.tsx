@@ -5,18 +5,18 @@ import StatItem from "./btc_button";
 
 const Btc: React.FC = () => {
   const stats = [
-    { name: "Bitcoin Price", value: "$83,118", change: "-1.93%" },
-    { name: "Bitcoin Count", value: "₿528,185", change: "+0.12%" },
-    { name: "Bitcoin NAV ($M)", value: "$43,902", change: "-1.93%" },
-    { name: "BTC Yield QTD", value: "11%", change: "+0.15%" },
-    { name: "BTC Yield YTD", value: "11%", change: "+0.22%" },
-    { name: "BTC Yield 2024", value: "74.3%", change: "+1.50%" },
-    { name: "BTC Gain QTD", value: "₿49,097", change: "+0.08%" },
-    { name: "BTC Gain YTD", value: "₿49,097", change: "+0.18%" },
-    { name: "BTC Gain 2024", value: "₿140,538", change: "+1.20%" },
-    { name: "BTC $ Gain QTD ($M)", value: "$4,081", change: "-0.75%" },
-    { name: "BTC $ Gain YTD ($M)", value: "$4,081", change: "+0.52%" },
-    { name: "BTC $ Gain 2024 ($M)", value: "$13,133", change: "+2.10%" },
+    { name: "Buttcoin Price", value: "$0.006433",  },
+    { name: "Buttcoin Count", value: "₿5,384,593",  },
+    { name: "Buttcoin NAV ($M)", value: "$34,639",  },
+    { name: "Buttcoin Yield QTD", value: "11%", },
+    { name: "Buttcoin Yield YTD", value: "11%", },
+    { name: "Buttcoin Yield 2024", value: "74.3%", },
+    { name: "Buttcoin Gain QTD", value: "₿49,097", },
+    { name: "Buttcoin Gain YTD", value: "₿49,097", },
+    { name: "Buttcoin Gain 2024", value: "₿140,538", },
+    // { name: "BUTTCoin $ Gain QTD ($M)", value: "$4,081", change: "-0.75%" },
+    // { name: "BUTTCoin $ Gain YTD ($M)", value: "$4,081", change: "+0.52%" },
+    // { name: "BUTTCoin $ Gain 2024 ($M)", value: "$13,133", change: "+2.10%" },
   ];
 
   return (
@@ -27,5 +27,4 @@ const Btc: React.FC = () => {
     </div>
   );
 };
-
 export default Btc;
