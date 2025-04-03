@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import { Orbitron, Montserrat } from "next/font/google";
 import "./globals.css";
+import Navbar from "./layouts/Navbar";
+import Footer from "./layouts/Footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -34,11 +36,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${orbitron.variable} ${montserrat.variable}`}><head>
-      
-    </head>
+    <html lang="en" className={` ${orbitron.variable} ${montserrat.variable}`}>
+      <head>
+      </head>
+
       <body className="overflow-x-hidden">
+        <Navbar />
         {children}
+        <Footer />
+
       </body>
     </html>
   );
