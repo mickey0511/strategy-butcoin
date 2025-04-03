@@ -1,14 +1,31 @@
-interface BtcProps {
-    image: string;
-    name: string;
-    context: string;
-    // button: string;
-}
-export default function Btc() {
-    return (
-        <div classname="w-full flex flex-row flex-wrap justify-between item-center ">
+"use client";
 
+import React from "react";
+import StatItem from "./btc_button";
 
-        </div>
-    );
+const Btc: React.FC = () => {
+  const stats = [
+    { name: "Bitcoin Price", value: "$83,118", change: "-1.93%" },
+    { name: "Bitcoin Count", value: "₿528,185", change: "+0.12%" },
+    { name: "Bitcoin NAV ($M)", value: "$43,902", change: "-1.93%" },
+    { name: "BTC Yield QTD", value: "11%", change: "+0.15%" },
+    { name: "BTC Yield YTD", value: "11%", change: "+0.22%" },
+    { name: "BTC Yield 2024", value: "74.3%", change: "+1.50%" },
+    { name: "BTC Gain QTD", value: "₿49,097", change: "+0.08%" },
+    { name: "BTC Gain YTD", value: "₿49,097", change: "+0.18%" },
+    { name: "BTC Gain 2024", value: "₿140,538", change: "+1.20%" },
+    { name: "BTC $ Gain QTD ($M)", value: "$4,081", change: "-0.75%" },
+    { name: "BTC $ Gain YTD ($M)", value: "$4,081", change: "+0.52%" },
+    { name: "BTC $ Gain 2024 ($M)", value: "$13,133", change: "+2.10%" },
+  ];
+
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-black">
+      {stats.map((stat, index) => (
+        <StatItem key={index} name={stat.name} value={stat.value} change={stat.change} />
+      ))}
+    </div>
+  );
 };
+
+export default Btc;

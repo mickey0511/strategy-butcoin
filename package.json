@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.1",
+    "@mui/styled-engine-sc": "^7.0.1",
+    "@mui/x-charts": "^7.28.0",
     "@reown/appkit": "1.7.0",
     "@reown/appkit-adapter-solana": "1.7.0",
     "@reown/appkit-adapter-wagmi": "1.7.0",
@@ -28,6 +33,7 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-toastify": "^11.0.5",
+    "styled-components": "^6.1.17",
     "swiper": "^11.2.5",
     "tailwindcss": "^4.0.11",
     "viem": "^2.21.14",
